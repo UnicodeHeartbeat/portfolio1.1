@@ -1,0 +1,102 @@
+.header,
+.contentSlogan,
+.detailsAbout,
+.workColumn,
+.columnSocial {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.detailsContact{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.headerLinkProjects {
+  color: #E2E2E2 !important;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #384355;
+  border: none;
+  border-radius: 24px;
+  padding: 15px 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.headerLinkProjects:hover {
+  background-color: #4a5a6d;
+  color: #333333;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.headerLinkProjects:active {
+  background-color: #4a5a6d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+  .contactText:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.contactText:active{
+  transform: translateY(2px);
+}
+.description{
+    color: #cfcece ;
+    padding-left: 20px;
+}
+
+.socialUI{
+  background-color: #384355;
+  color: #D4B483;
+  border: none;
+  border-radius: 24px;
+  padding: 15px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.socialUI:hover{
+  background-color: #4a5a6d;
+  color: #D4B483;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.socialUI:active {
+  background-color: #4a5a6d; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  transform: translateY(2px); 
+}
+
+.museaArrow{
+  background-color: #384355;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.museaArrow:hover{
+  background-color: #4a5a6d;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.museaArrow:active{
+  background-color: #4a5a6d; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  transform: translateY(2px); 
+}
+
+.eleraText:hover{
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.workTextZephyr:hover{
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
+}

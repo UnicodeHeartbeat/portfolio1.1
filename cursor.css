@@ -1,0 +1,18 @@
+.circle {
+    --circle-size: 40px;
+    position: fixed;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border: 1px solid #F7F3E8;
+    border-radius: 100%;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  /* Add this new rule */
+  .circle:hover + * {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }

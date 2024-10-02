@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./cursor.css">
+  </head>
+  <body>
+    <div class="circle"></div><script src="./script.js"></script>
+    <div class="unicode">
+    <header class="header">
+      <div class="headerNav">
+        <a href="./index.html">
+        <p class="headerTitle">
+          <span class="titleSpan">Anuj</span>
+          <span>&nbsp;</span>
+          <span class="titleSpan1">Pilaniya</span>
+        </p></a>
+        <div class="headerLink">
+          <a href="./project.html"><button class="headerLinkProjects">Projects</button></a>
+          <a href="./about.html"><button class="headerLinkProjects">About</button></a>
+          <a href="./contact.html"><button class="headerLinkProjects">Contact</button></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contactSection">
+      <div class="contactContainer">
+        <h1>Contact Me</h1>
+        <p>If you'd like to get in touch, feel free to send me a message!</p>
+
+        <form action="contact.php" method="POST" class="contactForm">
+          <div class="formGroup">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name" />
+          </div>
+
+          <div class="formGroup">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email" />
+          </div>
+
+          <div class="formGroup">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+          </div>
+
+          <button type="submit" class="submitBtn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Anuj Pilaniya. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>
